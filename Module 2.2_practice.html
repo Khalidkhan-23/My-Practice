@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+
+<style>
+    form{
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    *{
+        margin-top: 10px;
+    }
+    strong{
+        font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .button{
+        background-color: rgb(143, 153, 161);
+        box-shadow: 2px 2px 2px 0px rgb(0, 0, 0);
+        font-size: larger;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+</style>
+
+
+</head>
+<body>
+<form action="https://formspree.io/f/mzzvagvk" method="POST">
+  <span><strong>Name:</strong></span> 
+  <input type="text" placeholder="First Name" >
+  <input type="text" placeholder="Last Name"> <br><br>
+
+  <span><strong>Date of Birth:</strong></span> 
+  <input type="date"  ><br><br>
+
+  <span><strong>Father Name:</strong></span>
+  <input type="text" placeholder="First Name">
+  <input type="text" placeholder="Last Name"> <br><br>
+
+  <span><strong>Mother Name:</strong></span>
+  <input type="text" placeholder="First Name">
+  <input type="text" placeholder="Last Name"> <br><br>
+
+ <button class="button" type="submit">Submit</button>
+
+</form>
+</body>
+</html>

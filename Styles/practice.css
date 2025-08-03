@@ -1,0 +1,26 @@
+p {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 1px rgb(104, 62, 129);
+    padding: 16px;
+    margin-bottom: 20px;
+ }
+h1{
+    text-align: center;
+    font-size: 35px;
+    
+}
+.T{
+    font-style: italic;
+    font-size: 18px;
+
+}
+*{
+    margin: 5px;
+}
+h1{
+    background-image: url(https://www.kerentamir.com/wp-content/uploads/2017/12/dragging-technique-1.jpg);
+    background-size: 50%;
+    background-repeat: round;
+}
