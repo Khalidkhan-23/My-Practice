@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+
+    <h2>Feedback Form:</h2> <br>
+
+    <link rel="stylesheet" href="Styles/practice_4.2.css">
+
+</head>
+<body>
+    <header>
+         <form class="fb">
+            <label for="name">Name: <br>
+                <input type="text" name="name" id="n" placeholder="Your Name"><br>
+            </label>
+            <label for="email">Email:</label><br>
+                <input  type="email" id="email" name="email" required 
+                 pattern="[a-zA-Z0-9._%+-]+@\.com" 
+                placeholder="yourname@gmail.com"><br>
+            
+    </header>
+
+    <main>
+        <label for="title">Story Name: <br>
+                <input type="text" name="name" id="n" placeholder="Story name"> <br>
+        </label>
+        <label for="story"> Feedback <br>
+                <textarea placeholder="Write your thought about the story...." name="comment" id="c" rows="5" cols="60"></textarea>
+            </label> <br>
+            <label for="rating">Rating:</label><br>
+        <select id="rating" name="rating">
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="average">Average</option>
+            <option value="below average">Below Average</option>
+            <option value="poor">Poor</option>
+        </select> <br><br>
+    </main>
+
+    <footer>
+        <button type="submit">Submit</button>
+    </footer>
+</body>
+</html>
