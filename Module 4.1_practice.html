@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Review Form</title>
+    <title>Feedback Form</title>
+
+    <link rel="stylesheet" href="Styles/practice_4.1.css">
 
 </head>
 <body>
@@ -13,10 +15,32 @@
                 <input type="search" id="search-input" name="q" placeholder="Enter your search term">
                 <button type="submit">Search</button>
         </form>
-        <br>
 
-        <img class="main_logo" width="400px" src="Images/Luffy.jpg" alt="Luffy.jpg" >
+        <img class="main_logo" width="400px" src="Images/One piece.1.jpg" alt="Luffy.jpg" > <br>
+
+        <a class="link" href="https://wallpapers.com/one-piece-pictures" target="_blank">For more click here</a>
 
     </header>
+
+    <main>
+        
+        <form class="fb">
+            <span>Feedback Form:</span> <br>
+            <label for="name">Name: <br>
+                <input type="text" name="name" id="n"><br>
+            </label>
+            <label for="date">Date: <br>
+                <input type="date" name="name" id="n"> <br>
+            </label>
+            <label for="comment"> Comment: <br>
+                <textarea name="comment" id="c" rows="5" cols="60">      
+                </textarea>
+                
+            </label> <br>
+            <button type="submit">Submit
+            </button>
+        </form>
+        
+    </main>
 </body>
 </html>
