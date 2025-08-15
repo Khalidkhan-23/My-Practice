@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container {
+            height: 100vh;
+            display: grid;
+            gap: 10px;
+            
+            grid-template-columns: 2fr 1fr 1fr;
+            grid-template-rows: 2fr 2fr;
+            grid-template-areas: 
+            "a b b"
+            "a c d"
+        }
+
+        .box {
+            padding: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 700;
+            font-size: larger;
+            color: #ffffff;
+            border-radius: 10px;
+        }
+
+        .a {
+            background-color: crimson;
+            grid-area: a;
+
+        }
+
+        .b {
+            background-color: rgb(255, 174, 0);
+            grid-area: b;
+
+        }
+
+        .c {
+            background-color: rgb(148, 32, 148);
+            grid-area: c;
+        }
+
+        .d {
+            background-color: rgb(77, 74, 74);
+            grid-area: d;
+        }
+
+    @media screen and (max-width: 992px ) {
+        .container{
+            grid-template-columns: 2fr 2fr;
+            grid-template-rows: 2fr 1fr 1fr;
+            grid-template-areas: 
+            "a a"
+            "b c"
+            "b d";
+        }
+    }
+     @media screen and (max-width: 600px ){
+        .container{
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-areas: "a" "b" "c" "d";
+        }
+     }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box a">1</div>
+        <div class="box b">2</div>
+        <div class="box c">3</div>
+        <div class="box d">4</div>
+    </div>
+</body>
+
+</html>
