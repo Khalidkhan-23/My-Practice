@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        html, body{
+            height: 100%;
+        }
+        .container{
+            display: flex;
+            margin: auto;
+            gap: 10px;
+
+
+        
+    }
+    div{
+        border-radius: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: larger;
+    }
+    .l-box{
+        background-color: rgba(128, 128, 128, 0.486);
+        width: 30%;
+    }
+    .r-box{
+        background-color: rgba(244, 253, 202, 0.699);
+        width: 70%;
+    }
+
+    @media screen and (max-width: 600px) {
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+        .l-box{
+            height: 30%;
+            width: 100%;
+           overflow-x: hidden;
+        }
+        .r-box{
+            height: 70%;
+            width: 100%;
+           overflow-x: hidden;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="l-box">Left</div>
+        <div class="r-box">Right</div>
+    </div>
+</body>
+</html>
