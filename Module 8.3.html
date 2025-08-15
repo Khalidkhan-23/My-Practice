@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image</title>
+    <style>
+        img{
+            width: 100%;
+        }
+        .medium, .small{
+            display: none;
+
+        }
+        @media screen and (max-width:1024px) { 
+            .small, .large{
+                display: none;
+            }  
+            .medium{
+                display: block;
+            } 
+        }
+        @media screen and (max-width:430px) { 
+            .medium, .large{
+                display: none;
+            }  
+            .small{
+                display: block;
+            } 
+        }
+    </style>
+</head>
+<body>
+        <img class="large" src="Images/Spider-man 1080p.jpg" alt="">
+        <img class="medium" src="Images/Spider-man 800p.jpg" alt="">
+        <img class="small" src="Images/Spider-man 430p.jpg" alt="">
+</body>
+</html>
