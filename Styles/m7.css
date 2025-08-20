@@ -3,10 +3,11 @@
 
 
 /* Header */
-header{
+header {
     display: flex;
     justify-content: center;
 }
+
 header div {
 
     background: linear-gradient(180.00deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0) 100%), url(../Images/m7/Banner\ Image.png);
@@ -16,11 +17,11 @@ header div {
     border-radius: 16px;
     display: flex;
     justify-content: center;
-align-items: center;
-flex-direction: column;
-width: 82.5%;
-height: auto;
-margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+    width: 82.5%;
+    height: auto;
+    margin-top: 50px;
 }
 
 header h5 {
@@ -48,93 +49,144 @@ header h3 {
 }
 
 /* Section-OFF */
-.off-section{
+.off-section {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.off h1{
+.off h1 {
     color: rgba(255, 0, 0, 1);
 
-font-family: Inter;
-font-size: 88px;
-font-weight: 700;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-margin-top: 120px;
-margin-bottom: 58px;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 58px;
 }
-.sub{
+
+.off p{
     color: rgba(255, 0, 0, 1);
 
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
 }
-.off h5{
+
+.off h5 {
     color: rgba(7, 2, 17, 1);
 
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-margin-top: 0px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 0px;
 }
 
 /* Section-Welcome */
-.welcome-section{
+.welcome-section {
     display: flex;
     justify-content: center;
 }
-.welcome-section > div{
+
+.welcome-section>div {
     display: flex;
     align-items: center;
-    background-image: linear-gradient(90.00deg, rgba(7, 2, 17, 1),rgba(7, 2, 17, 0) 100%),  url(../Images/m7/Vectorrr.png) ;
+    background-image: linear-gradient(90.00deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0) 100%), url(../Images/m7/Vectorrr.png);
     border-radius: 16px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 82.5%;
     margin-top: 120px;
+    margin-bottom: 120px;
     gap: 140px;
     padding-top: 84px;
     padding-bottom: 70px;
 
 }
 
-.welcome h2{
+.welcome h2 {
     color: rgba(255, 255, 255, 1);
 
-font-family: Merriweather;
-font-size: 76.8px;
-font-weight: 900;
-line-height: 105.6px;
-letter-spacing: 8px;
-text-align: left;
-margin-top: 10px;
-margin-left: 151.2px;
-margin-bottom: 20px;
+    font-family: Merriweather;
+    font-size: 76.8px;
+    font-weight: 900;
+    line-height: 105.6px;
+    letter-spacing: 8px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 151.2px;
+    margin-bottom: 20px;
 }
-.welcome p{
+
+.welcome p {
     color: rgba(255, 255, 255, 0.8);
 
-font-family: Inter;
-font-size: 21.6px;
-font-weight: 400;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: left;
-margin-left: 151.2px;
-margin-bottom: 60px;
+    font-family: Inter;
+    font-size: 21.6px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 151.2px;
+    margin-bottom: 60px;
 }
-.welcome a{
+
+.welcome a {
+    color: rgba(255, 255, 255, 1);
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 190px;
+}
+
+/* Section-loc */
+.loc-section{
+    display: flex;
+    justify-content: center;
+}
+.loc {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 110px;
+    margin-bottom: 120px;
+    width: 82.5%;
+    
+}
+
+.loc p {
+    font-family: Inter;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: -20px;
+
+}
+.loc span{
+   color: rgba(255, 0, 0, 1);
+}
+.loc button{
     color: rgba(255, 255, 255, 1);
 
 font-family: Inter;
@@ -143,12 +195,119 @@ font-weight: 600;
 line-height: 100%;
 letter-spacing: 0%;
 text-align: center;
-text-decoration: none;
-margin-left: 190px;
+text-transform: uppercase;
+padding: 16px 32px 16px 32px;
+border-radius: 8px;
+
+background: rgba(255, 0, 0, 1);
+border: none;
+margin-top: 68px
+}
+
+/* Section-Soon */
+
+
+.soon-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px
+
+}
+
+.soon{
+    display: flex;
+    align-items: center;
+    width: 82.5%;
+}
+
+.soon h4{
+    color: rgba(255, 0, 0, 1);
+
+font-family: Inter;
+font-size: 29px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+.soon #y25{
+    font-size: 57.6px;
+    font-weight: 700;
+    margin-bottom: 0px;
 }
 
 
 
 
+.sub{
+    color: rgba(7, 2, 17, 0.6);
+
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 40px;
+}
+.soon h3{
+    color: rgba(7, 2, 17, 1);
+
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+margin-top: -20px;
+margin-bottom: 40px;
+}
+
+.soon .middle{
+   box-sizing: border-box;
+border: 15px solid rgba(255, 0, 0, 1);
+border-radius: 360px;
+padding: 35px;
+margin-left: 104px;
+margin-right: 140px;
+}
 
 
+/* Section-Sale */
+
+.sale-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px
+}
+
+.sale{
+    display: flex;
+    flex-direction: column;
+    width: 82.5%;
+}
+.sale-des #func{
+    color: rgba(7, 2, 17, 1);
+
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.sale-des p{
+text-align: center;
+}
+
+.sale-des h3{
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.sale-des span{
+    color: rgba(255, 0, 0, 1);
+}
