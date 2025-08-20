@@ -88,7 +88,64 @@ text-align: center;
 margin-top: 0px;
 }
 
+/* Section-Welcome */
+.welcome-section{
+    display: flex;
+    justify-content: center;
+}
+.welcome-section > div{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(90.00deg, rgba(7, 2, 17, 1),rgba(7, 2, 17, 0) 100%),  url(../Images/m7/Vectorrr.png) ;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 82.5%;
+    margin-top: 120px;
+    gap: 140px;
+    padding-top: 84px;
+    padding-bottom: 70px;
 
+}
+
+.welcome h2{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Merriweather;
+font-size: 76.8px;
+font-weight: 900;
+line-height: 105.6px;
+letter-spacing: 8px;
+text-align: left;
+margin-top: 10px;
+margin-left: 151.2px;
+margin-bottom: 20px;
+}
+.welcome p{
+    color: rgba(255, 255, 255, 0.8);
+
+font-family: Inter;
+font-size: 21.6px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 151.2px;
+margin-bottom: 60px;
+}
+.welcome a{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-decoration: none;
+margin-left: 190px;
+}
 
 
 
