@@ -68,7 +68,7 @@ header h3 {
     margin-bottom: 58px;
 }
 
-.off p{
+.off p {
     color: rgba(255, 0, 0, 1);
 
     font-family: Inter;
@@ -155,10 +155,11 @@ header h3 {
 }
 
 /* Section-loc */
-.loc-section{
+.loc-section {
     display: flex;
     justify-content: center;
 }
+
 .loc {
     border-radius: 16px;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
@@ -169,7 +170,7 @@ header h3 {
     padding-bottom: 110px;
     margin-bottom: 120px;
     width: 82.5%;
-    
+
 }
 
 .loc p {
@@ -183,54 +184,56 @@ header h3 {
     margin-bottom: -20px;
 
 }
-.loc span{
-   color: rgba(255, 0, 0, 1);
+
+.loc span {
+    color: rgba(255, 0, 0, 1);
 }
-.loc button{
+
+.loc button {
     color: rgba(255, 255, 255, 1);
 
-font-family: Inter;
-font-size: 20px;
-font-weight: 600;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: uppercase;
-padding: 16px 32px 16px 32px;
-border-radius: 8px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
 
-background: rgba(255, 0, 0, 1);
-border: none;
-margin-top: 68px
+    background: rgba(255, 0, 0, 1);
+    border: none;
+    margin-top: 68px
 }
 
 /* Section-Soon */
 
 
-.soon-section{
+.soon-section {
     display: flex;
     justify-content: center;
     margin-bottom: 120px
-
 }
 
-.soon{
+.soon {
     display: flex;
     align-items: center;
     width: 82.5%;
 }
 
-.t-head{
+.t-head {
     color: rgba(255, 0, 0, 1);
 
-font-family: Inter;
-font-size: 29px;
-font-weight: 500;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Inter;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
 }
-.soon #y25{
+
+.soon #y25 {
     font-size: 57.6px;
     font-weight: 700;
     margin-bottom: 0px;
@@ -239,106 +242,180 @@ text-align: left;
 
 
 
-.sub{
+.sub {
     color: rgba(7, 2, 17, 0.6);
 
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-line-height: 38px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 40px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 40px;
 }
-.head{
+
+.head {
     color: rgba(7, 2, 17, 1);
 
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: left;
-text-transform: capitalize;
-margin-top: -20px;
-margin-bottom: 40px;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: -20px;
+    margin-bottom: 40px;
 }
 
-.soon .middle{
-   box-sizing: border-box;
-border: 15px solid rgba(255, 0, 0, 1);
-border-radius: 360px;
-padding: 35px;
-margin-left: 104px;
-margin-right: 140px;
+.soon .middle {
+    box-sizing: border-box;
+    border: 15px solid rgba(255, 0, 0, 1);
+    border-radius: 360px;
+    padding: 35px;
+    margin-left: 104px;
+    margin-right: 140px;
 }
 
 
 /* Section-Sale */
 
-.sale-section{
+.sale-section {
     display: flex;
     justify-content: center;
     margin-bottom: 120px
 }
 
-.sale{
+.sale {
     display: flex;
     flex-direction: column;
     width: 82.5%;
 }
-.sale-des #func{
+
+.sale-des #func {
     color: rgba(7, 2, 17, 1);
 
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-line-height: 100%;
-letter-spacing: 0%;
-}
-.sale-des p{
-text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
 }
 
-.sale-des h3{
-    font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
+.sale-des p {
+    text-align: center;
 }
-.sale-des span{
+
+.sale-des h3 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.sale-des span {
     color: rgba(255, 0, 0, 1);
 }
 
 
 /* Section-Gifts */
 
-.gift-section{
+.gift-section {
     display: flex;
     justify-content: center;
+    margin-bottom: 110px;
 }
-.gift{
+
+.gift {
     display: flex;
     flex-direction: column;
     width: 82.5%;
 }
 
-.gift img{
-    width: calc(100% / 3 );
+.gift img {
+    width: calc(100% / 3);
     opacity: 0.6;
-} 
+}
 
-.img-box-t, .img-box-b {
+.img-box-t,
+.img-box-b {
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
 }
 
-.gift img:hover{
+.gift img:hover {
     opacity: 1;
-        transform: scale(1.04);
+    transform: scale(1.04);
     transition: transform 0.2s ease;
 }
 
+/* Section-Subscribe*/
+
+.subscribe-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+
+}
+
+.subscribe {
+    border-radius: 16px;
+
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 82.5%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.subscribe h3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.subscribe p {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.subscribe #submit {
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+    background: rgba(255, 0, 0, 1);
+    padding: 24px 56px;
+    border: none;
+    cursor: pointer;
+}
+
+.subscribe #mail {
+    color: rgba(7, 2, 17, 0.3);
+    opacity: 0.8;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 50px 0px 0px 50px;
+    background: rgba(255, 255, 255, 1);
+    padding: 25px 30px;
+    border: none;
+    text-align: start;
+    width: 440px;
+}
+
+.subscribe #submit:hover {
+    transform: translateY(-2px);
+}
