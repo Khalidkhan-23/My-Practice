@@ -320,6 +320,35 @@ header h3 {
 }
 
 
+
+
+
+.sale-img .gift-box{
+    position: relative;
+    top: 200px;
+    right: -80px;
+    z-index: 2;
+}
+.sale-img .sticker{
+    position: relative;
+}
+.sale-img .sticker img{
+    position: absolute;
+    right: 80px;
+    top: 250px;
+}
+.sale-img .gift-box img, .sale-img .sticker img{
+    scale: 1.2;
+    
+}
+
+.red-line img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+
+
 /* Section-Gifts */
 
 .gift-section {
@@ -425,7 +454,7 @@ header h3 {
 footer{
     display: flex;
     justify-content: center;
-    background: rgba(7, 2, 17, 1);
+    background: rgba(7, 2, 17, 1);         
 }
 .footer{
     width: 82.5%;
@@ -474,4 +503,8 @@ line-height: 40px;
     align-items: center;
     gap: 28.8px;
     padding: 32px ;
+}
+.icons a:hover{
+    transform: translateY(-2px);
+    animation: bumpy 0.5s ease;
 }
