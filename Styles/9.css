@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.section{
+    margin-bottom: 130px;
+}
+
+*{
+    margin: 0px;
+}
+
+/* Header-Section */
+
+
+.header-section{
+    background: linear-gradient(0.00deg, rgba(18.0625, 18.0625, 18.0625, 1),rgba(18.0625, 18.0625, 18.0625, 0) 100%),  url(../images-9/donation0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 174px;
+    padding-bottom: 180px;
+}
+
+.header-section h1{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Inter;
+font-size: 65px;
+font-weight: 700;
+line-height: 130%;
+letter-spacing: 0px;
+text-align: center;
+margin-bottom: 20px;
+ 
+}
+
+.sub{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: center;
+margin-bottom: 36px;
+}
+.button{
+    color: rgba(255, 255, 255, 1);
+
+font-family: 'Inter';
+font-size: 20px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: left;
+border-radius: 5px;
+
+background: rgba(255, 89, 89, 1);
+padding: 16px 18px;
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .header-section{
+        background: linear-gradient(0.00deg, rgba(18.0625, 18.0625, 18.0625, 1),rgba(18.0625, 18.0625, 18.0625, 0) 100%), url(../images-9/donation7.jpg);
+    }
+    .header-section h1{
+        margin-top: -60px;
+font-size: 32px;
+}
+.sub{
+    font-size: 9px;
+    line-height: 18px;
+    
+}
+.button{
+    font-size: 10px;
+    padding: 8px 9px;
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+}
+
