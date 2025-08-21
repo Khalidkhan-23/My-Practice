@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+html{
+    scroll-behavior: smooth;
+}
+
 .section {
     margin-bottom: 130px;
 }
@@ -207,10 +211,15 @@ margin-bottom: 30px;
         font-size: 32px;
     }
 
-    .sub {
-        font-size: 9px;
+    .header-section .sub {
+        font-size: 14px;
         line-height: 18px;
 
+    }
+    .sub {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 40px;
     }
 
     .button {
@@ -218,5 +227,21 @@ margin-bottom: 30px;
         padding: 8px 9px;
         margin-top: 100px;
         margin-bottom: -100px;
+    }
+.donate-section h3, .donate-section p{
+    scale: 1.2;
+}
+
+    .donate-section{
+        scale: 0.6;
+    }
+    .m-none{
+        display: none;
+    }
+    #other{
+        width: 300px;
+    }
+    .donate .button{
+        scale: 1.5;
     }
 }
