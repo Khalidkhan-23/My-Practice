@@ -261,6 +261,48 @@ html {
 
 
 
+/* Story-Section */
+
+.story-section{
+    display: flex;
+    justify-content: center;
+}
+
+.story-page{
+    width: 85%;
+}
+.story{
+    display: flex;
+    gap: 130px;
+    justify-content: space-between;
+}
+.story h3, .story p{
+    text-align: left;
+}
+.story h3{
+    padding-top: 80px;
+    margin-bottom: 60px;
+}
+.story p{
+    margin-bottom: 80px;
+}
+
+.r-s{
+    flex-direction: row-reverse;
+    margin-bottom: 120px;
+}
+.l-s{
+    justify-content: left;
+}
+.l-s .story-des{
+    padding-left: 9%;
+}
+
+.story img{
+    border-radius: 5px;
+    width: calc(45% - 3.2%);
+}
+
 
 
 
@@ -278,6 +320,10 @@ html {
 
 
 @media screen and (max-width:576px) {
+
+    html, body {
+  overflow-x: hidden;
+}
 
 
     /* Header-Section */
@@ -313,12 +359,17 @@ html {
 /* Donate-Section */
 
 
-    .donate-section h3,
-    .donate-section p {
-        scale: 1.2;
-    }
+.head{
+    font-size: 28px;
+    margin-bottom: -20px;
+}
 
-    .donate-section {
+.sub{
+    font-size: 12px;
+}
+
+
+    .donate{
         scale: 0.6;
     }
 
@@ -334,22 +385,15 @@ html {
         scale: 1.5;
     }
 
-    .plan-section span{
-        display: none;
-    }
-    .plan-section p {
-        scale: 1.2;
-    }
-.plan-section{
-    scale: 0.6;
-}
+    
+
 
     .box-container{
         flex-direction: column;
     }
     .box {
     border-radius: 5px;
-    width:80%;
+    width:60%;
     padding: 62px 24px;
     overflow: hidden; 
 
@@ -359,8 +403,30 @@ html {
     }
 
     .box-container p {
-    font-size: 16px;
+    font-size: 18px;
     text-align: left;
-    padding-left: 28px;
+}
+
+
+.story{
+    flex-direction: column;
+}
+
+.story img{
+    width: 100%;
+    margin-bottom: -100px;
+    margin-top: -80px;
+}
+
+.l-s .story-des{
+    padding-left: 0% ;
+}
+
+.story h3{
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+.story p{
+    margin-bottom: 20px;
 }
 }
