@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -88,7 +88,7 @@ html{
     color: rgba(18, 18, 18, 1);
 
     font-family: Inter;
-    font-size: 45px;
+    font-size: 58px;
     font-weight: bold;
     line-height: 100%;
     letter-spacing: 0px;
@@ -100,9 +100,9 @@ html{
     color: rgba(112, 112, 112, 1);
 
     font-family: Poppins;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
-    line-height: 28px;
+    line-height: 36px;
     letter-spacing: 0px;
     text-align: center;
 }
@@ -113,7 +113,7 @@ html{
     gap: 22px;
 }
 
-.donate{
+.donate {
     margin-top: 60px;
 }
 
@@ -153,32 +153,32 @@ html{
 }
 
 
-.amounts input[type="radio"]:checked + label{
+.amounts input[type="radio"]:checked+label {
     box-sizing: border-box;
-border: 3px solid rgba(255, 89, 89, 1);
-border-radius: 5px;
+    border: 3px solid rgba(255, 89, 89, 1);
+    border-radius: 5px;
 
-background: rgba(255, 238, 238, 1);
+    background: rgba(255, 238, 238, 1);
 }
 
-#other{
-color: rgba(179, 179, 179, 1);
-width: 765px ;
-font-family: Poppins;
-font-size: 18px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0px;
-text-align: center;
-border: none;
-border-bottom: 1px solid rgba(218, 218, 218, 1);
-padding-bottom: 10px ;
-margin-top: 60px;
-margin-bottom: 30px;
+#other {
+    color: rgba(179, 179, 179, 1);
+    width: 765px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid rgba(218, 218, 218, 1);
+    padding-bottom: 10px;
+    margin-top: 60px;
+    margin-bottom: 30px;
 
 }
 
-#other:focus{
+#other:focus {
     outline: none;
 }
 
@@ -187,6 +187,82 @@ margin-bottom: 30px;
     -webkit-appearance: none;
     margin: 0;
 }
+
+
+
+/* Donate Plan */
+
+
+.box-container h4 {
+    color: rgba(18, 18, 18, 1);
+
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 38px;
+    margin-bottom: 24px;
+}
+
+.box-container p {
+    color: rgba(112, 112, 112, 1);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 64px;
+}
+
+.box {
+    border-radius: 5px;
+    width: 20%;
+    padding: 82px 32px;
+    cursor: pointer;
+}
+
+.box-1 {
+    background: rgba(79, 157, 166, 0.08);
+}
+
+.box-2 {
+    background: rgba(255, 89, 89, 0.07);
+}
+
+.box-3 {
+    background: rgba(255, 244, 214, 0.5);
+}
+
+.box:hover{
+    scale: 1.1;
+    transition: transform 0.3s ease;
+
+}
+.box-1:hover{
+        background: rgba(79, 157, 166, 0.2);
+}
+.box-2:hover{
+    background: rgba(255, 89, 89, 0.2);
+}
+.box-3:hover{
+    background: rgba(255, 244, 214, 1);
+}
+
+
+
+
+
+
 
 
 
@@ -202,6 +278,10 @@ margin-bottom: 30px;
 
 
 @media screen and (max-width:576px) {
+
+
+    /* Header-Section */
+
     .header-section {
         background: linear-gradient(0.00deg, rgba(18.0625, 18.0625, 18.0625, 1), rgba(18.0625, 18.0625, 18.0625, 0) 100%), url(../images-9/donation7.jpg);
     }
@@ -216,6 +296,7 @@ margin-bottom: 30px;
         line-height: 18px;
 
     }
+
     .sub {
         font-size: 14px;
         line-height: 18px;
@@ -228,20 +309,58 @@ margin-bottom: 30px;
         margin-top: 100px;
         margin-bottom: -100px;
     }
-.donate-section h3, .donate-section p{
-    scale: 1.2;
-}
 
-    .donate-section{
+/* Donate-Section */
+
+
+    .donate-section h3,
+    .donate-section p {
+        scale: 1.2;
+    }
+
+    .donate-section {
         scale: 0.6;
     }
-    .m-none{
+
+    .m-none {
         display: none;
     }
-    #other{
+
+    #other {
         width: 300px;
     }
-    .donate .button{
+
+    .donate .button {
         scale: 1.5;
     }
+
+    .plan-section span{
+        display: none;
+    }
+    .plan-section p {
+        scale: 1.2;
+    }
+.plan-section{
+    scale: 0.6;
+}
+
+    .box-container{
+        flex-direction: column;
+    }
+    .box {
+    border-radius: 5px;
+    width:80%;
+    padding: 62px 24px;
+    overflow: hidden; 
+
+    }
+    .box:hover{
+    transition: none;
+    }
+
+    .box-container p {
+    font-size: 16px;
+    text-align: left;
+    padding-left: 28px;
+}
 }
